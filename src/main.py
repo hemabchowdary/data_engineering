@@ -1,8 +1,8 @@
-print(" age=28 ")
-print(" height=5.6 ")
-print(" color = green " )
-print(" like_python = True ")
-print(" age=30 ")
-print(" height=5.7 ")
-print(" color = blue " )
-print(" like_python = False ")
+l = '''this is a basic python program 
+and i would like to learn more this programming language
+as soon as possible'''
+k = l.split()
+print(k)
+' '.join(k[:5])
+string = "welcome to my data engineering"
+print(len(string))
