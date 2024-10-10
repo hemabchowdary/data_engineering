@@ -1,6 +1,6 @@
 # Given tuple
 t = (25, 45, 85, 7.5, 3.67, True, "greetings", False, "from", "Python4")
-x = t[1]  # Access the 2nd element (index 1)
+x = t[1]  
 print(x)
 
 # Slice the tuple to retrieve the last 4 elements
@@ -21,13 +21,13 @@ print(a)
 
 # Convert tuple to list, add multiple elements, and convert back to tuple
 x = list(t)
-x.extend([400, 700])  # Add two elements
+x.extend([400, 700]) 
 y = tuple(x)
 print(y)
 
 # Remove an element from a tuple by converting it to a list
 x = list(t)
-x.remove(85)  # Remove the element with value 85 directly
+x.remove(85)  
 y = tuple(x)
 print(y)
 
@@ -43,17 +43,17 @@ print(English)
 # Using set operations
 k = {10, 20, 30, 40, 50}
 j = {40, 50, 60, 70, 80}
-print(k.union(j))  # Union
-print(k.intersection(j))  # Intersection
-print(k.difference(j))  # Difference
+print(k.union(j))  
+print(k.intersection(j))  
+print(k.difference(j))  
 print(k.symmetric_difference(j))  
 
 # Create a list, remove duplicates, and perform add/remove operations
 l = [15, 12, 10, 12, 8, 15, 7, 10, 6, 5, 4, 7, 3, 2, 1]
-m = list(set(l))  # Remove duplicates
+m = list(set(l)) 
 print(m)
 
 # Remove an element and add another
-l.remove(12)  # Removes the first occurrence of 12
-l.append(18)  # Adds 18 to the list
+l.remove(12)  
+l.append(18)  
 print(l)
