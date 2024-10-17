@@ -7,4 +7,4 @@ def factorial(n):
 
 # Example usage
 num = int(input("Enter a number to calculate its factorial: "))
-print(f"Factorial of {num} is {factorial(num)}")
+
