@@ -6,7 +6,7 @@ def is_prime(num):
             return False
     return True
 
-num = 1801013
+num = 1801019
 if is_prime(num):
     print(f"{num} is a prime")
 else:
